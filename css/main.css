@@ -1,14 +1,23 @@
+img {
+    border-radius: 10px;
+}
+
 .container {
     width: 100%;
+    overflow: hidden;
+    
 }
 
 p, li {
     font-size: 16px;
     font-family: "Raleway";
+    color: #166369;
+    line-height: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
+    color: #166369;
 }
 
 button {
@@ -19,6 +28,9 @@ button {
     font-size: 16px;
     border-radius: 4px;
     font-family: "Raleway";
+    color: #F0F2ED;
+    padding: 0;
+    border: none;
 }
 
 .row {
@@ -75,8 +87,9 @@ button {
     max-height: inherit;
     display: block;
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 180px;
 }
 
 
@@ -114,11 +127,12 @@ button {
 
 
 /***TESTIMONIALS***/
-h2 {
+.testimonials h2 {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 70px;
+    padding-bottom: 30px;
     color: #F0F2ED;
-    font-size: 28px
+    font-size: 28px;
 }
 
 .testimonial-image, .testimonial {
@@ -132,32 +146,45 @@ h2 {
 }
 
 .testimonial-image img {
-    width: 200px;
-    padding-left: 100px;
+    width: 180px;
+    margin-left: 50%;
+    border-radius: 180px;
 }
 
 .testimonial {
-    width: 70%;
+    width: 60%;
 }
 
 .testimonial p {
     width: 80%;
     display: block;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     color: #F0F2ED;
+    font-size: 18px;
+    line-height: 23px
+    
 }
 
 .testimonials button {
     background-color: #F0F2ED;
     color: #166369;
+    margin-bottom: 90px;
+    margin-top: 70px;
 }
 
 
 /***FOOTER***/
+.footer {
+    height: 100px;
+}
 .first, .second, .third {
     float: left;
     width: 33.333%
+}
+
+.footer p {
+    font-size: 14px;
 }
 
 .second p {
@@ -169,21 +196,90 @@ h2 {
 }
 
 .first p, .second p, .third p{
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
 /***ABOUT***/
+.divider {
+    background-color: #7E9C60;
+    height: 10px;
+}
+
+.about-hero {
+    background-image: url("../images/looking_up.png"); 
+    background-size: cover;
+    height: auto;
+    overflow: auto;
+}
+
+.about-hero img{
+    border-radius: 0;
+    width: 150%;
+}
+
 .social-links a {
-    font-size: 36px;
-    color: #7E9C60;
+    font-size: 48px;
+    color: #F0F2ED;
 }
 
 .social-links li {
     display: inline-block;
+    margin-right: 15px;
 }
 
-.about p, .about h1 {
+.social-links {
+    margin-left: 60px;
+    line-height: 0px;
+}
+
+.about-hero p, .about-hero h1 {
     text-align: left;
+    color: #F0F2ED;
+    margin-left: 100px;
 }
 
+.about-hero h1 {
+    padding-top: 80px;
+    font-size: 58px;
+    line-height: 0px;
+}
+
+.about-hero p {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.about-hero left, .about-hero right {
+    float: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-hero left {
+    width: 70%;
+}
+
+.about-hero right {
+    width: 30%;
+}
+
+.about .row {
+    width: 80%;
+}
+
+.about img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.about h2 {
+    margin-top: 60px;
+    font-size: 28px;
+}
