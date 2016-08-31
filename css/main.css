@@ -39,7 +39,7 @@ button {
     margin: 0 auto;
 }
 
-.nav, .features, .footer {
+.nav, .features, .footer, .refund{
     background-color: #F0F2ED;
 }
 
@@ -337,11 +337,64 @@ button {
     margin: 0 auto;
 }
 
-.about-footer, .blog-footer {
+.about-footer, .blog-footer, .schedules {
     background-color: #7E9C60;
 }
 
-.about-footer p, .blog-footer p {
+.about-footer p, .blog-footer p, .schedules p {
     color: #F0F2ED;
+}
+
+/**SCHEDULE**/
+.schedule-social-links a {
+    font-size: 48px;
+    color: #7E9C60;
+}
+
+.schedule-social-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.schedule-social-links {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.refund h2, .refund p {
+    text-align: center;
+}
+
+.refund h2 {
+    margin-top: 80px;
+}
+
+.private img {
+    width: 70%;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-left: 25%;
+}
+
+.private h2 {
+    margin-top: 80px;
+}
+
+.class h2 {
+    text-align: center;
+}
+
+.class img {
+    padding-bottom: 30px;
+}
+
+.class h2:first-child {
+    margin-top: 50px;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
     
