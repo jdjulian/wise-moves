@@ -4,8 +4,7 @@ img {
 
 .container {
     width: 100%;
-    overflow: hidden;
-    
+    overflow: auto;
 }
 
 p, li {
@@ -42,6 +41,10 @@ button {
 
 .nav, .features, .footer {
     background-color: #F0F2ED;
+}
+
+.blogs, .abouts {
+    background-color: white;
 }
 
 .testimonials {
@@ -250,18 +253,12 @@ button {
     line-height: 32px;
 }
 
-.about-hero left, .about-hero right {
-    float: left;
-    display: block;
-    margin: 0 auto;
+.about-hero .left {
+    width: 60%;
 }
 
-.about-hero left {
-    width: 70%;
-}
-
-.about-hero right {
-    width: 30%;
+.about-hero .right {
+    width: 40%;
 }
 
 .about .row {
@@ -283,3 +280,68 @@ button {
     margin-top: 60px;
     font-size: 28px;
 }
+
+/**BLOG**/
+
+.first-row, .second-row {
+    float: left;
+}
+
+.first-row {
+    width: 40%;
+    background-color: #F0F2ED;
+    background-size: cover;
+}
+
+.blog-archives {
+    height: 100px;
+}
+
+.blog-archives h2, .wise-moves h3 {
+    margin-left: 15%;
+    padding-top: 15%;
+}
+
+.blog-archives h2 {
+    font-size: 28px;
+}
+
+.blog-posts h2 {
+    font-size: 36px;
+    padding-top: 50px;
+}
+
+.wise-moves h3 {
+    color: #F0F2ED;
+}
+
+.wise-moves {
+    background-color: #7E9C60;
+    height: 200px;
+}
+
+
+.second-row {
+    background-color: white;
+    width: 60%;
+}
+
+.second-row img {
+    width: 100%;
+}
+
+/***NAV & FOOTER CHANGES**/
+.blog-posts {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-footer, .blog-footer {
+    background-color: #7E9C60;
+}
+
+.about-footer p, .blog-footer p {
+    color: #F0F2ED;
+}
+    
