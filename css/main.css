@@ -173,3 +173,17 @@ h2 {
     padding-bottom: 20px;
 }
 
+/***ABOUT***/
+.social-links a {
+    font-size: 36px;
+    color: #7E9C60;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.about p, .about h1 {
+    text-align: left;
+}
+
