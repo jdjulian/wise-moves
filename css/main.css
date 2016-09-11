@@ -23,11 +23,7 @@ button {
     display: block;
     margin: 0 auto;
     height: 45px;
-<<<<<<< HEAD
-    width: 250px;
-=======
     width: 350px;
->>>>>>> modal
     font-size: 16px;
     border-radius: 4px;
     font-family: "Raleway";
@@ -352,15 +348,8 @@ button {
 /**SCHEDULE**/
 .disclaimer{
     width: 100%;
-<<<<<<< HEAD
-    height: 250px;
 }
     
-
-=======
-}
-    
->>>>>>> modal
 .schedule-social-links a {
     font-size: 48px;
     color: #7E9C60;
