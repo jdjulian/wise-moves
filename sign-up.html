@@ -40,9 +40,11 @@
         
             <div class="contact-row">
                 
-                <br><h2>Sign Up For A Free Consultation!<h2>
+                <br><br><h2>Sign Up For A Free Consultation!<h2>
                     
-                <form action="../confirmation.html" method="get">
+                <form action="https://getsimpleform.com/messages?form_api_token=5e87b1e8f77bbebc6e91c76465dbadb9" method="post">
+                    
+                    <input type='hidden' name='redirect_to' value='https://jdjulian.github.io/wise-moves/confirmation.html' />
             
                     <label for="first_name">Name*</label><br>
                             <input type="text" name="first_name" maxlength="100" size="30">
@@ -94,10 +96,15 @@
          <!--Javascript-->
                 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js">
-                $('contact-button').click(function(){
-   window.location.href='confirmation.html';
-})
-                </script>
+  </script>
+        <script>
+            window.onload=function() {
+  document.getElementByClassName("contact-button").onsubmit=function() {
+    window.location.replace("confirmation.html");
+    return false;
+  }
+}
+        </script>
         
     </body>
 </html>
